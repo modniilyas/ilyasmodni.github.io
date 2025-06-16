@@ -1,0 +1,92 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f7fa;
+  color: #333;
+  padding: 2rem 5vw;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.profile-header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.profile-img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.profile-info h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.profile-info p {
+  margin: 0.3rem 0;
+}
+
+.social-icons img {
+  width: 28px;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Section titles */
+h2 {
+  margin-top: 2rem;
+  color: #34495e;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.8rem;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
